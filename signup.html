@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        body 
+        {
+                background-color: #f1f1f1;
+        }
+        .nag
+        {
+            display: flex;
+            align-content: center;
+            
+            gap: 60px;
+            list-style-type: none;
+            padding: md-4;
+            margin-bottom: 10px;
+            justify-content: center;
+            font-size: x-large;
+        }    
+        .nav li a
+        {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+    </style>
+    <div class="nag">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/page">Page</a>
+        <a href="/jump">Jump</a>
+        <a href="/forms">form</a>
+        <a href="/training">training</a>
+        <a href="/signup">SignUp</a>
+    </div>
+    <header>
+        <h1>Sign Up!</h1>
+    </header>
+    <style>
+        table, th, td 
+        {
+        
+            padding: 5px;
+            border-collapse: collapse;
+        }
+    </style>
+    <article>
+        <form action="/training" method="get">
+        <table class="signup">
+            <tr>
+                <td>  
+                    <label for="User_Name">User Name:</label>
+                </td>
+                <td>
+                    
+                    <input type="text" id="User_Name" placeholder="hari hara krishnan" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                    <label for="Email_id">Email:</label>
+                </td>
+                <td>
+                    
+                    <input type="email" id="Email_id" placeholder="abc@gamil.com" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    
+                    <label for="Password">Password:</label>
+                </td>
+                <td>
+                    
+                    <input type="password" id="Password"  required>
+                </td>
+            </tr>
+
+            <tr>
+                
+                <td>    <label for="Gender">Gender:</label></td>
+                <td>    <label for="male">Male<input type="radio" id="male" name="'Gender" value="M"/>&nbsp;
+                <label for="female">Female<input type="radio" id="female" name="'Gender" value="F"/></label></td>                
+            </tr>
+
+            <tr>
+                
+                <td>
+                    <label for="DOB">DOB:</label>
+                </td>
+                <td>
+                    <input type="dob" id="DOB" placeholder="1/1/2000" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="country" placeholder="Select your country">
+                        <option value="India" />India
+                        <option value="India" />USA
+                        <option value="India" />UK
+                        <option value="India" />Canada
+                        <option value="India" />Belgium
+                        <option value="India" />France 
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                
+                <td><label for="language" >Language Known:</label></td>
+                <td><label for="English"> English <input type="radio" id ="english"  />&nbsp;
+                    <label for="Hindi"> Hindi <input type="radio" id ="Hindi"  />&nbsp;
+                    <label for="Tamil"> Tamil <input type="radio" id ="Tamil" >
+                </label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Pic">Profile pic:</label></td>
+                <td>
+                    <input type="file" id="'pic" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="yourself" dir="ltr">About yourself:</label></td>
+                <td><textarea></textarea></td> <!-- Add contenteditable and spellcheck attribute -->
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register"/>
+                </td>
+                <td>
+                    <input type="reset" value="reset"/>
+                </td>
+            </tr>
+        </table>
+        </form><br/><br/><br/><br/>
+    </article>
+    <a href="/training">Home</a>
+    <footer>
+        <nav> About Us | Privacy Policy | Contact Us | FAQ | Terms & Conditions </nav> Copyright &copy; 2018 | Giri
+    </footer>
+    <aside> Like and Connect with us FB Twitter g+ </aside>
+</body>
+</html>
